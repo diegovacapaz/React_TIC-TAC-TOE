@@ -1,12 +1,13 @@
-import { useState } from "react";
 import './App.css';
+import RoutesComponent from "./routes/RoutesComponent";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hola mundo</h1>
+      <main>
+        <RoutesComponent></RoutesComponent>
+      </main>
     </>
   )
 }
