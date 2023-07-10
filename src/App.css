@@ -4,6 +4,10 @@
     color: #ffffff;
 }
 
+main {
+    height: 76vh;
+}
+
 .btn {
     text-decoration: none;
     border: none;
