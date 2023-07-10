@@ -25,3 +25,7 @@ main {
     background-color: #ffffffd1;
     transition: 0.2s;
 }
+
+.center {
+    text-align: center;
+}
