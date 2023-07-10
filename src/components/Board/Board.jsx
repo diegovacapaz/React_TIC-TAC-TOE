@@ -14,7 +14,7 @@ const Board = () => {
                 <article className="container">
                     <div className="board">                    
                         {board.map((cell,index)=>{
-                            return <Cell key={index}></Cell>
+                            return <Cell key={index} draw={index}></Cell>
                         })}
                     </div>
                 </article>

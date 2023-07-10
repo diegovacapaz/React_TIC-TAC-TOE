@@ -1,8 +1,8 @@
-const Cell = () => {
+const Cell = ({draw}) => {
     return (
         <div className="cell">
             <article>
-                <p>Hola</p>
+                <p>{draw}</p>
             </article>
         </div>
     );
