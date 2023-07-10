@@ -1,0 +1,23 @@
+:root {
+    font-family: system-ui;
+    background-color: #242424;
+    color: #ffffff;
+}
+
+.btn {
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 8%;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #242424;
+}
+
+.btn-white:hover {
+    background-color: #ffffffd1;
+    transition: 0.2s;
+}
