@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+section {
+    margin: 40px 0;
+}
